@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Just+Me+Again+Down+Here&family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    width: 208px;
+    height: 96px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+.text{
+    font-family: "Just Me Again Down Here";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.2px;
+
+    background: linear-gradient(88deg, #36930A 0%, #C82222 44.84%, #FFE973 94.26%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.star{
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+}

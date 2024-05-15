@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Just+Me+Again+Down+Here&family=Klee+One&family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.rowForm{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+@media (max-width : 540px ) and (min-width : 390px){
+    .container{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width : 700px ) {
+    .container{
+        background: #000;
+    }
+    
+    .label{
+        display: none;
+    }
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+    margin-top: 40px;
+}
+
+.textH{
+    text-align: center;
+    font-family: "KG Blank Space Sketch";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    background: linear-gradient(90deg, #1E1E1E 0%, #4B4A3C 97.27%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.texth{
+    color: #000;
+    text-align: center;
+    font-family: "Klee One";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.55px;
+}
+
+.texth2{
+    color: #000;
+    text-align: center;
+    font-family: "Klee One";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.55px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.label{
+    position: absolute;
+    top: 300px;
+    color: #000;
+    -webkit-text-stroke-width: 0.4000000059604645;
+    -webkit-text-stroke-color: #6E6532;
+    font-family: "Klee One";
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.32px;
+    bottom: 250px;
+}
+
+.boxForm{
+    width: 255px;
+    height: 37px;
+    flex-shrink: 0;
+    font-family: "Klee One";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 10px;
+    border: 0.4px solid #6E6532;
+    background: rgba(217, 217, 217, 0.00);
+}
+.boxForm::placeholder{
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+
+.btnSubmit{
+    width: 137px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #FFE973;
+    stroke-width: 0.4px;
+    stroke: #6E6532;
+    box-shadow: 3px -2px 15px 0px rgba(0, 0, 0, 0.25) inset;
+    filter: drop-shadow(0px 1px 2.1px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 5px;
+
+
+    color: #000;
+    -webkit-text-stroke-width: 0.4000000059604645;
+    -webkit-text-stroke-color: #6E6532;
+    font-family: "Klee One";
+    font-size: 8.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.48px;
+}
+
+.btnSubmit:hover{
+    box-shadow: 3px -2px 15px 0px #FFE973 inset;
+}
+
+.textquestion{
+    width: 247px;
+    height: 20px;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: "Klee One";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    margin-top:30px;
+}
+
+.textcreate{
+    color: #FFD600;
+    text-align: center;
+    font-family: "Klee One";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    margin: 0;
+    cursor: pointer;
+}

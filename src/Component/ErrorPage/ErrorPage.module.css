@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Just+Me+Again+Down+Here&family=Klee+One&family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.textH{
+    text-align: center;
+    font-family: "KG Blank Space Sketch";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.45px;
+}
+
+.texth{
+    color: #000;
+    text-align: center;
+    font-family: "Klee One";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
